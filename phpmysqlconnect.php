@@ -3,7 +3,7 @@ require_once 'dbconfig.php';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-    echo "Connected to $dbname at $host successfully.";
+   // echo "Connected to $dbname at $host successfully.";
     
     $sql = 'SELECT title,
                     author,
